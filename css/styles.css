@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap");
+
+:root {
+  --red-color: #f03c42;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --bg-blue: #222374;
+  --bg-gray: #cccccc;
+  --bg-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--white-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+  background-color: var(--red-color);
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.nav-ctr {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 18px;
+}
+
+.nav-social-media-link {
+  display: flex;
+  align-items: center;
+}
+
+.nav-social-media-link img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.nav-instagram-label {
+  font-size: 14px;
+}
+
+#about-us {
+  background-color: var(--bg-blue);
+}
+
+.base-section {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-ctr {
+  width: 960px;
+}
+
+.about-us-ctr h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.base-card {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.about-us-card {
+  background-color: var(--bg-gray);
+}
+
+.about-us-card:first-of-type {
+  margin-bottom: 20px;
+}
+
+.about-us-card h3 {
+  color: var(--black-color);
+  margin-bottom: 20px;
+}
+
+.about-us-card p {
+  color: var(--black-color);
+}
+
+#modalities {
+  background-color: var(--bg-white);
+}
+
+.modalities-ctr {
+  width: 960px;
+}
+
+.modalities-ctr h2 {
+  color: var(--red-color);
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.modality-card {
+  background-color: var(--bg-blue);
+  margin-bottom: 20px;
+}
+
+.modality-card:last-of-type {
+  margin-bottom: 0;
+}
+
+.modality-card h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.modality-card p {
+  font-size: 14px;
+}
+
+footer {
+  background-color: var(--black-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-medias {
+  margin-bottom: 30px;
+}
+
+.social-media-link-ctr:first-of-type {
+  margin-bottom: 10px;
+}
+
+.social-media-link {
+  display: flex;
+  align-items: center;
+}
+
+.social-media-link img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.social-media-label {
+  font-size: 14px;
+}
+
+.rights-reserved {
+  font-size: 14px;
+}
+
+address {
+  font-size: 14px;
+}
