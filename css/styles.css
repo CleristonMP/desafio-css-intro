@@ -31,7 +31,8 @@ header {
 }
 
 .nav-ctr {
-  width: 960px;
+  max-width: 960px;
+  flex: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,7 +69,8 @@ header {
 }
 
 .about-us-ctr {
-  width: 960px;
+  max-width: 960px;
+  flex: 1;
 }
 
 .about-us-ctr h2 {
@@ -103,7 +105,8 @@ header {
 }
 
 .modalities-ctr {
-  width: 960px;
+  max-width: 960px;
+  flex: 1;
 }
 
 .modalities-ctr h2 {
@@ -139,7 +142,9 @@ footer {
   align-items: center;
 }
 
-.social-medias {
+.social-medias-ctr {
+  max-width: 960px;
+  flex: 1;
   margin-bottom: 30px;
 }
 
